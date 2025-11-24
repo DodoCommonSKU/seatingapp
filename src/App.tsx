@@ -42,7 +42,7 @@ function App() {
   };
   const formattedPeopleData = peopleData.map((person) => ({
     name: `${person["First Name"]} ${person["Last Name"]}`,
-    department: person["Department "].trim(),
+    department: person["Department"].trim(),
   }));
 
   const handleGenerateSeatingArrangement = () => {
